@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "flask-api"
+version = "0.1.0"
+description = "Flask REST API"
+authors = ["nael@sequellabs.io"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+flask = "^2.3.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
