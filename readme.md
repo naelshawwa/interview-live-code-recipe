@@ -1,15 +1,19 @@
 # Full Stack Engineering Interview
 
-We're building yet another recipe website using the [Edamam API](https://developer.edamam.com/edamam-docs-recipe-api). 
+We're building yet another recipe website using the [Spoonacular API](https://spoonacular.com/food-api/). 
 
 Before the interview:
-- checkout this project
-- sign up for a free developer account on Edamam to get your API key
-- install dependencies and start the application and ensure you are able to see recipes
-- DO NOT MAKE ANY CHANGES to this codebase before the interview however feel free to 
+- Checkout this project
+- Signup for a free account for Spoonacular and get your api key
+- Save your api key in an enviroment variable for `SPOONACULAR_API_KEY` here:
+   
+   ```/flask-api/.env```
+
+- install NPM and Poetry dependencies and start the application and ensure you are able to see recipes
+- DO NOT MAKE ANY CHANGES to this codebase before the interview however feel free to browse the [Spoonacular API Docs](https://spoonacular.com/food-api/docs) and this codebase.
 
 # Codebase
-This interview codebase has 3 parts. For Engineering roles we will be using both the ReactJS and Python Flask parts. For Test Engineer roles we will be using the Playwright codebase as well as the unit tests for ReactJS Client or Python Flask API
+This interview codebase has 3 parts. For Engineering roles we will be using both the ReactJS and Python Flask parts. For Test Engineer roles we will be using the Playwright codebase as well as the unit tests for ReactJS Client or Python Flask API depending 
 
 ## ReactJS Client
 
@@ -35,7 +39,7 @@ This project is a Flask API that serves as a backend for applications. It is str
 
 4. **Run the application:**
    ```
-   poetry run python src/app.py
+   poetry run python -m src.app
    ```
 5. **Run tests:**
    ```
