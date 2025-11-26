@@ -9,8 +9,8 @@ Before the interview:
    
    ```/flask-api/.env```
 
-- install NPM and Poetry dependencies and start the application and ensure you are able to see recipes
-- DO NOT MAKE ANY CHANGES to this codebase before the interview however feel free to browse the [Spoonacular API Docs](https://spoonacular.com/food-api/docs) and this codebase.
+- Install NPM and Poetry dependencies and start the application and ensure you are able to see recipes
+- *DO NOT MAKE ANY CHANGES* to this codebase before the interview however feel free to browse the [Spoonacular API Docs](https://spoonacular.com/food-api/docs) and this codebase.
 
 # Codebase
 This interview codebase has 3 parts. For Engineering roles we will be using both the ReactJS and Python Flask parts. For Test Engineer roles we will be using the Playwright codebase as well as the unit tests for ReactJS Client or Python Flask API. 
