@@ -17,7 +17,7 @@ This interview codebase has 3 parts. For Engineering roles we will be using both
 
 ##  Python Flask API
 ### Overview
-This project is a Flask API that serves as a backend for applications. It is structured to facilitate easy development and testing of API endpoints.
+The backend api and proxy to Spoonacular.
 
 ### Setup Instructions
 
@@ -52,6 +52,7 @@ poetry run pytest tests/test_app.py
 ```
 
 ## ReactJS Client
+The client application and starts with showing 3 recipes in a row
 
 ### Setup instructions
 ```
