@@ -49,7 +49,7 @@ The backend api and proxy to Spoonacular.
 ### Testing
 To run the tests, use the following command:
 ```
-poetry run pytest tests/test_app.py
+poetry run pytest -v
 ```
 
 ## ReactJS Client
