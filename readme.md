@@ -15,8 +15,6 @@ Before the interview:
 # Codebase
 This interview codebase has 3 parts. For Engineering roles we will be using both the ReactJS and Python Flask parts. For Test Engineer roles we will be using the Playwright codebase as well as the unit tests for ReactJS Client or Python Flask API depending 
 
-## ReactJS Client
-
 ##  Python Flask API
 ### Overview
 This project is a Flask API that serves as a backend for applications. It is structured to facilitate easy development and testing of API endpoints.
@@ -53,4 +51,21 @@ To run the tests, use the following command:
 poetry run pytest tests/test_app.py
 ```
 
-## Playwright Tests
+## ReactJS Client
+
+### Setup instructions
+```
+cd react-client
+npm install
+```
+
+### Run the app
+```
+npm run dev
+```
+
+### Playwright Tests
+To run these tests, use the following command:
+```
+npm run test
+```
